@@ -1,0 +1,708 @@
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('../fonts/lato-regular.eot');
+    src: url('../fonts/lato-regular.eot') format('embedded-opentype'),
+    url('../fonts/lato-regular.woff') format('woff'),
+    url('../fonts/lato-regular.ttf') format('truetype'),
+    url('../fonts/lato-regular.svg#LatoRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'LatoLight';
+    src: url('../fonts/lato-light.eot');
+    src: url('../fonts/lato-light.eot') format('embedded-opentype'),
+    url('../fonts/lato-light.woff') format('woff'),
+    url('../fonts/lato-light.ttf') format('truetype'),
+    url('../fonts/lato-light.svg#LatoLight') format('svg');
+}
+
+@font-face {
+    font-family: 'LatoBoldItalic';
+    src: url('../fonts/lato-bolditalic.eot');
+    src: url('../fonts/lato-bolditalic.eot') format('embedded-opentype'),
+    url('../fonts/lato-bolditalic.woff') format('woff'),
+    url('../fonts/lato-bolditalic.ttf') format('truetype'),
+    url('../fonts/lato-bolditalic.svg#LatoBoldItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'LatoLightItalic';
+    src: url('../fonts/lato-lightitalic.eot');
+    src: url('../fonts/lato-lightitalic.eot') format('embedded-opentype'),
+    url('../fonts/lato-lightitalic.woff') format('woff'),
+    url('../fonts/lato-lightitalic.ttf') format('truetype'),
+    url('../fonts/lato-lightitalic.svg#LatoLightItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'LatoBlack';
+    src: url('../fonts/lato-black.eot');
+    src: url('../fonts/lato-black.eot') format('embedded-opentype'),
+    url('../fonts/lato-black.woff') format('woff'),
+    url('../fonts/lato-black.ttf') format('truetype'),
+    url('../fonts/lato-black.svg#LatoBlack') format('svg');
+}
+
+@font-face {
+    font-family: 'GothamRegular';
+    src: url('../fonts/gotham-book.eot');
+    src: url('../fonts/gotham-book.eot') format('embedded-opentype'),
+    url('../fonts/gotham-book.woff') format('woff'),
+    url('../fonts/gotham-book.ttf') format('truetype'),
+    url('../fonts/gotham-book.svg#GothamRegular') format('svg');
+}
+
+@font-face
+{
+    font-family: 'bebas';
+    src: url('../fonts/bebasneue-webfont.ttf'),
+    url('../fonts/bebasneue-webfont.eot'); /* IE9 */
+}
+
+.container, .getGlossyBanner > .work {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.navbar-default {
+    border-color: transparent;
+}
+
+.navbar-brand {
+    padding: 15px 0 15px 25px;
+    color: #ffffff !important;
+    font-size: 16px;
+    font-family: 'LatoLight';
+}
+
+.getGlossyBanner {
+    padding: 0 !important
+}
+
+.navbar-collapse {
+    padding: 0 15px 0 25px;
+}
+
+.seperator {
+    height: 13px;
+    background-color: #FFFFFF;
+}
+
+body, .seperator {
+    background-color: #eeeeee;
+}
+
+.nav-padding-top {
+    padding-top: 60px;
+}
+
+.nav>li>a {
+    font-family: LatoLight;
+    position: relative;
+    display: block;
+    padding: 7px 0;
+    color: #d0d0d0;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+/* IPHONE 3.5 INCH SCREEN */
+@media (max-width:340px) {
+    .desktopNav {
+        display: none;
+    }
+
+    .mobileNav {
+        display: block;
+    }
+
+    .mobileNav, .mobileNav > .navbar {
+        background: url('../images/nav-home-bg.jpg');
+        display: block;
+    }
+
+    .navbar {
+        margin-bottom: 0 !important;
+    }
+
+    .paragraph {
+        padding: 0;
+    }
+
+    .justifyMobile {
+        margin-left: -25px;
+    }
+
+
+
+    .edgeBox {
+        float: left;
+        margin: 0px;
+        padding: 20px 40px 20px 40px;
+        background-color: rgba(249, 249, 249, .9);
+        color: rgba(249, 249, 249, .9);
+        width: 100%;
+    }
+
+    .edgeContent {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .edgeForm {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer_content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .manifesto {
+        padding: 20px;
+    }
+
+    #daytoday > div > h2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* IPAD */
+@media (min-width:341px) and (max-width:767px) {
+    .container {
+        background: none !important;
+    }
+
+    .desktopNav {
+        display: none;
+    }
+
+    .mobileNav, .mobileNav > .navbar {
+        background: url('../images/nav-home-bg.jpg');
+        display: block;
+    }
+
+    .navbar {
+        margin-bottom: 0 !important;
+    }
+
+    .pageScroll > ul > li > a > img{
+        display: none;
+    }
+
+    .paragraph {
+        padding: 0;
+    }
+
+    .justifyMobile {
+        margin-left: -25px;
+    }
+
+    .edgeBox {
+        float: left;
+        margin: 0;
+        padding: 20px 40px 20px 40px;
+        background-color: rgba(249, 249, 249, .9);
+        color: rgba(249, 249, 249, .9);
+        width: 100%;
+    }
+
+    .edgeContent {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .edgeForm {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer_content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .manifesto {
+        padding: 20px;
+    }
+
+    #daytoday > div > h2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* SMALL DESKTOP */
+@media (min-width:768px) and (max-width:991px) {
+    .container {
+        width: 100% !important;
+    }
+
+    .desktopNav {
+        display: block;
+        background: url('../images/nav-home-bg.jpg');
+    }
+
+    .mobileNav {
+        display: none;
+    }
+
+    .pageScroll > ul > li > a > img{
+        display: none;
+    }
+
+    .paragraph {
+        padding: 0 40px 0 40px;
+    }
+
+    .edgeBox {
+        float: left;
+        margin: 50px;
+        padding: 20px 40px 20px 40px;
+        background-color: rgba(249, 249, 249, .9);
+        color: rgba(249, 249, 249, .9);
+        width: 92%;
+    }
+
+    .footer_content {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+
+    .manifesto {
+        padding: 40px;
+    }
+}
+
+/* MEDIUM DESKTOP */
+@media (min-width:992px) and (max-width:1199px) {
+    .container {
+        width: 100% !important;
+    }
+
+    .desktopNav {
+        display: block;
+        background: url('../images/nav-home-bg.jpg');
+    }
+
+    .mobileNav {
+        display: none;
+    }
+
+    .pageScroll > ul > li > a > img{
+        display: none;
+    }
+
+    .paragraph {
+        padding: 0 40px 0 40px;
+    }
+
+    .edgeBox {
+        float: left;
+        margin: 50px;
+        padding: 20px 40px 20px 40px;
+        background-color: rgba(249, 249, 249, .9);
+        color: rgba(249, 249, 249, .9);
+        width: 92%;
+    }
+
+    .footer_content {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+
+    .manifesto {
+        padding: 40px;
+    }
+}
+
+/* LARGE DESKTOP */
+@media (min-width: 1200px)
+{
+    .container {
+        width: 1440px;
+    }
+
+    .desktopNav {
+        display: block;
+        background: url('../images/nav-home-bg.jpg');
+    }
+
+    .mobileNav {
+        display: none;
+    }
+
+    .paragraph {
+        padding: 0 40px 0 40px;
+    }
+
+    .edgeBox {
+        float: left;
+        margin: 50px;
+        padding: 20px 40px 20px 40px;
+        background-color: rgba(249, 249, 249, .9);
+        color: rgba(249, 249, 249, .9);
+        width: 92%;
+    }
+
+    .footer_content {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+
+    .manifesto {
+         padding: 40px;
+     }
+}
+
+.nav-sidebar {
+    margin-left: 10px;
+}
+
+.pageScroll {
+    background: #FFF;
+    margin-right: -15px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pageScroll a {
+    font-family: LatoLightItalic;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.pageScroll li a img {
+    margin: 8px 0 0;
+    float: right;
+    padding-right: 70px;
+}
+
+.pageScroll li {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.hiddenDiv {
+    display: none;
+    font-family: LatoRegular;
+    font-size: 11px;
+    color: #515151;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.hiddenDivPic {
+    display: none;
+}
+
+#featured > div > div > div > h5,  #strategy > div > div > div > h5, #promotion > div > div > div > h5, #apps > div > div > div > h5, #all > div > div > div > h5{
+    font-family: LatoBlack;
+    color: #73d5ce;
+    font-size: 11px;
+}
+
+.bold {
+    font-family: LatoBoldItalic;
+    font-size: 11px;
+    color: #515151;
+}
+
+.italic {
+    font-family: LatoLightItalic;
+    font-size: 11px;
+    color: #515151;
+}
+
+/* IPAD */
+@media (max-width:340px) {
+    #edgeLogo {
+        margin: 0 auto !important;
+    }
+
+    #contact > div > .manifesto {
+        padding: 24px;
+    }
+}
+
+/* IPAD */
+@media (min-width:341px) and (max-width:767px) {
+    .hiddenDiv {
+        height: 279px;
+    }
+
+    #edgeLogo {
+        margin: 0 auto !important;
+    }
+
+    #contact > div > .manifesto {
+        padding: 24px;
+    }
+
+    .instaPicsDiv {
+        padding: 10px;
+    }
+}
+
+/* SMALL DESKTOP */
+@media (min-width:768px) and (max-width:768px) {
+    .hiddenDiv {
+        height: 213px;
+    }
+
+    #edgeLogo {
+        margin: 0 auto !important;
+    }
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .hiddenDiv {
+        height: 271px;
+    }
+
+    #edgeLogo {
+        margin: 0 auto !important;
+    }
+}
+
+/* MEDIUM DESKTOP */
+@media (min-width:992px) and (max-width:1023px) {
+    .hiddenDiv {
+        height: 210px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1024px) {
+    .hiddenDiv {
+        height: 211px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1199px) {
+    .hiddenDiv {
+        height: 244px;
+    }
+}
+
+/* LARGE DESKTOP */
+@media (min-width: 1200px) {
+    .hiddenDiv {
+        height: 296px;
+    }
+}
+
+#team > div > div > img, #team > div > div > div > img {
+    width: 200px;
+}
+
+#clients > div > div > div > img {
+    width: 120px;
+}
+
+.bottomBorder {
+    border: 1px solid #ffffff;
+    width: 100%;
+    float: left;
+    margin: 15px 0 25px 0;
+}
+
+.manifesto {
+    background: #c3c4c6;
+}
+
+
+.featurette-heading {
+    font-family: LatoLight;
+    font-size: 20px;
+    color: #3a3b40;
+    font-style: italic;
+    margin: 0 0 20px 0;
+}
+
+li {
+    list-style-image: url(../images/icon-arrow.png);
+}
+
+.lead {
+    font-family: LatoRegular;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #ffffff;
+}
+
+.biggerPadding {
+    padding: 40px;
+}
+
+.what-heading {
+    font-family: LatoLight;
+    font-size: 20px;
+    color: #ffffff;
+    font-style: italic;
+    margin: 0 0 20px 0;
+}
+
+.daily > div{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#edge {
+    background: url(../images/bg-edge-body.jpg);
+    background-size: 100%;
+}
+
+.edgeBox > div > h4 {
+    color: #606060;
+    font-size: 22px;
+    font-family: bebas;
+}
+
+.pEdge {
+    color: #606060;
+    margin: 35px 0 0;
+    font-family: GothamRegular;
+}
+
+#edgeLogo {
+    margin: -46px auto 0 auto;
+    width: 250px;
+}
+
+.css-form > div > input,  .css-form > div > textarea{
+    width: 100%;
+    font-family: LatoRegular;
+    font-size: 14px;
+    color: #000000;
+    padding: 5px;
+    margin: 0 0 8px 0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+}
+
+.css-form-contact > div > input,  .css-form-contact > div > textarea{
+    width: 100%;
+    font-family: LatoRegular;
+    font-size: 14px;
+    color: #000000;
+    padding: 5px;
+    margin: 0 0 8px 0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+}
+
+.first > input {
+    width: 98% !important;
+}
+
+
+.first-contact > input {
+    width: 98% !important;
+}
+
+
+.css-form > div > input::-moz-placeholder,  .css-form > div > textarea::-moz-placeholder{
+    color: #000;
+    opacity: 1;
+}
+
+.css-form > div > input:-ms-input-placeholder, .css-form > div > textarea:-ms-input-placeholder {
+    color: #000;
+    opacity: 1;
+}
+
+.css-form > div > input::-webkit-input-placeholder,  .css-form > div > textarea::-webkit-input-placeholder{
+    color: #000;
+    opacity: 1;
+}
+
+.css-form-contact > div > input::-moz-placeholder,  .css-form-contact > div > textarea::-moz-placeholder{
+    color: #000;
+    opacity: 1;
+}
+
+.css-form-contact > div > input:-ms-input-placeholder, .css-form-contact > div > textarea:-ms-input-placeholder {
+    color: #000;
+    opacity: 1;
+}
+
+.css-form-contact > div > input::-webkit-input-placeholder,  .css-form-contact > div > textarea::-webkit-input-placeholder{
+    color: #000;
+    opacity: 1;
+}
+
+.buttonSubmit {
+    background: #3b3b3a;
+    text-align: center;
+    padding: 5px 0 !important;
+    color: #ffffff !important;
+    font-family: bebas !important;
+    text-transform: uppercase;
+    font-size: 22px !important;
+    width: 100%;
+}
+
+.buttonSubmit-contact {
+    font-family: LatoBlack;
+    font-size: 14px;
+    color: #000000;
+    padding: 5px;
+    margin: 0 0 8px 0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 0 !important;
+}
+
+.css-form input.ng-invalid.ng-dirty {
+    background-color: #FA787E;
+}
+
+.css-form input.ng-valid.ng-dirty {
+    background-color: #FFFFFF;
+}
+
+.css-form-contact input.ng-invalid.ng-dirty {
+    background-color: #FA787E;
+}
+
+.css-form-contact input.ng-valid.ng-dirty {
+    background-color: #FFFFFF;
+}
+
+.gMap {
+    height: 336px;
+}
+
+#contact > div {
+    background: #c3c4c6;
+}
+
+.fotterText {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.footer-heading {
+    font-family: 'LatoLight';
+    color: #606060;
+    font-size: 20px;
+}
+
+.instaPics {
+    height: 382px;
+}
